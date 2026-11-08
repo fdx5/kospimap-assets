@@ -1,0 +1,1 @@
+import{r as t}from"./index-BkPOf1Dd.js";let e=0,r="";function l(o){t.useEffect(()=>{if(o)return e++===0&&(r=document.body.style.overflow,document.body.style.overflow="hidden"),()=>{--e===0&&(document.body.style.overflow=r)}},[o])}export{l as u};

@@ -1,0 +1,2 @@
+const o=`html.re-page-covered body { background: #07090d; }
+html.re-page-covered body > :not([data-covers-page]) { content-visibility: hidden; contain-intrinsic-size: auto 100vh; }`;let n=0;function c(){if(!document.getElementById("re-page-cover")){const e=document.createElement("style");e.id="re-page-cover",e.textContent=o,document.head.appendChild(e)}n++===0&&document.documentElement.classList.add("re-page-covered");let t=!1;return()=>{t||(t=!0,--n===0&&document.documentElement.classList.remove("re-page-covered"))}}export{c};

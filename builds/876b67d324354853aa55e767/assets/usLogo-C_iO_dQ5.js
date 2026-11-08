@@ -1,0 +1,1 @@
+const t={GOOGL:"GOOG",FOXA:"FOX",NWSA:"NWS","BF.B":"BF-A",BNY:"BK"},a=128;function n(o){return(t[o]??o).replace(/\./g,"-")}const r={SKHY:"/img/ticker/skhynix.webp"};function s(o){return r[o]??`https://companiesmarketcap.com/img/company-logos/${a}/${n(o)}.webp`}function p(o){return`/api/market/us-logo/${n(o)}`}export{p as a,s as u};

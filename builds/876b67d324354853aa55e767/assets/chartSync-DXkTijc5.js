@@ -1,0 +1,1 @@
+function u(e){let i=!1;const c=e.map((n,s)=>{const a=l=>{i||!l||(i=!0,e.forEach((r,t)=>{t!==s&&r.timeScale().setVisibleRange(l)}),i=!1)};return n.timeScale().subscribeVisibleTimeRangeChange(a),a});return()=>{e.forEach((n,s)=>{n.timeScale().unsubscribeVisibleTimeRangeChange(c[s])})}}export{u as s};

@@ -1,0 +1,1 @@
+import{r as n,j as r}from"./index-BkPOf1Dd.js";function c({item:o,className:a}){const[s,l]=n.useState(!1);if(!o.logo_url)return r.jsx("span",{className:"fight-logo-fallback",children:o.name.slice(0,2)});const e=s?o.logo_url:o.logo_url.replace("/company-logos/64/","/company-logos/256/");return r.jsx("img",{src:e,alt:o.name,className:a,onError:()=>{s||l(!0)}})}export{c as C};

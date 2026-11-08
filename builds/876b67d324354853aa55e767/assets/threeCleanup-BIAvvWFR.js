@@ -1,0 +1,1 @@
+function s(o){const t=o._interceptControlDown;t&&document.removeEventListener("keydown",t,{capture:!0}),o.dispose()}function e(o){var t;o.dispose(),(t=o.forceContextLoss)==null||t.call(o),o.domElement.remove()}export{s as d,e as r};

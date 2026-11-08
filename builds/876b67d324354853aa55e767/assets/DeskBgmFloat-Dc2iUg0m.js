@@ -1,0 +1,1 @@
+import{O as t,Y as n,r as o,ab as r,j as s,a5 as i}from"./index-BkPOf1Dd.js";function m(){const e=t(),a=n();return o.useEffect(()=>r(),[]),!a.on||e==="neo"&&window.location.pathname!=="/drone-explore"?null:s.jsx("div",{className:"d2 d2-bgm-float",children:s.jsx(i,{variant:"strip"})})}export{m as default};

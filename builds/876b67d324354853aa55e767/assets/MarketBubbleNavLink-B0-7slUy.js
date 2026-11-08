@@ -1,0 +1,1 @@
+import{j as s,L as a}from"./index-BkPOf1Dd.js";import{M as r}from"./MarketBubbleIcon-BvumzQFh.js";import{M as e}from"./MarketOrbitNavLink-CJnM1Qs6.js";function o(){return s.jsxs(s.Fragment,{children:[s.jsx(e,{}),s.jsxs(a,{to:"/market-bubbles",className:"kospi-map-nav-link kospi-map-nav-link--bubbles",children:[s.jsx(r,{})," 증시버블"]})]})}export{o as M};
